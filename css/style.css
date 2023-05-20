@@ -8,3 +8,40 @@
 @import url(./sections/trending.css);
 @import url(./sections/subscribe.css);
 @import url(./sections/footer.css);
+
+
+:root{
+    --playfair-display : "Playfair Display", serif;
+    --Plus-Jakarta-Sans : "Plus Jakarta Sans", sans-serif;
+    --primary-color: #b1454a;
+    --secondary-color: #121212;
+  
+    --black-200: #020202;
+    --black-300: #333333;
+    --black-400: #1f1e31;
+    --black-500: #555555;
+    --gray-100: #888888;
+  
+    --color-white: #fff;
+    --color-creamson: #fff0de;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--color-creamson);
+    font-family: var(--playfair-display);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
