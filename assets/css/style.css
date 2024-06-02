@@ -269,7 +269,7 @@ html{
 
   .nav__menu{
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
     background-color: var(--body-color);
     width: 100%;
@@ -305,10 +305,10 @@ html{
 
 
 .nav__close{
-  position: relative;
+   position: absolute;
   top: 1rem;
-  right: 1.5rem;
-  font-style: 1.5rem;
+  right: 1.5rem; 
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -334,12 +334,16 @@ html{
   bottom: 0;
   transform: rotate(-30deg);
 }
+
+
   /* Show menu */
 
 
 
 
-
+.show-menu{
+  top: 0;
+}
 
 
 
