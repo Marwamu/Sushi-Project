@@ -131,3 +131,21 @@ themeButton.addEventListener('click', ()=>{
     localStorage.setItem('selected-theme', getCurretTheme)
     localStorage.setItem('selected-icon', getCurretIcon)
 })
+
+/*======================== SCROLL REVEAL ANIMATION ========================*/
+
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1700,
+    delay: 400,
+    reset: true,  // Animations Repeat
+
+});
+
+sr.reveal('.home__img , .newsletter__container, .footer__logo , .footer__description, .footer__content, .footer__info');
+sr.reveal('.home__data', {origin: 'bottom'});
+sr.reveal('.about__img , .recently__img', {origin: 'right'}) ;
+sr.reveal('.about__data, .recently__data' , {origin: 'left'});
+sr.reveal('.popular__card', {interval: 100});
